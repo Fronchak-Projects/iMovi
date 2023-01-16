@@ -80,6 +80,11 @@
     margin-bottom: 1em;
 }
 
+#slider img {
+    height: 30vh;
+    width: 100%;
+}
+
 #slider .carousel-caption h5 {
     font-size: 2.5em;
     text-shadow: #000 2px 2px;
@@ -132,6 +137,11 @@
 
     .carousel-indicators {
         bottom: 15%;
+    }
+
+    #slider img {
+        height: 70vh;
+        max-height: 600px;
     }
 }
 
@@ -192,6 +202,11 @@
     margin-top: 2em;
 }
 
+#featured-container img {
+    width: 100%;
+    height: 40vh;
+}
+
 #featured-images .col-md-4 {
     position: relative;
     cursor: pointer;
@@ -228,6 +243,11 @@
     #featured-images .banner-content {
         opacity: 0;
     }
+
+    #featured-container img {
+        height: 70vh;
+        max-height: 500px;
+    }
 }
 
 /* INFO */
@@ -262,5 +282,103 @@
 
     #info-content .title:before {
         bottom: 1.5em;
+    }
+}
+
+/* FOOTER TOP */
+
+#footer {
+    padding: 3em 2em;
+}
+
+#footer-top {
+    margin-bottom: 2em;
+}
+
+#footer-top, 
+#footer-top i {
+    color: var(--bg-secondary-color);
+}
+
+#social-icons {
+    text-align: right;
+}
+
+#social-icons i {
+    margin-right: 1em;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#social-icons i:hover {
+    color: var(--secondary-color);
+}
+
+/* FOOTER DETAILS */
+
+#footer-details {
+    margin-bottom: 3em;
+}
+
+#news-container,
+#contact-container,
+#links-container {
+    padding: 0;
+    border: 0;
+    margin-bottom: 2em;
+}
+
+#footer-details h4 {
+    color: #FFF;
+    margin-bottom: 1.5em;
+}
+
+#news-container input {
+    border-radius: 0;
+    border: none;
+}
+
+#news-container input:focus {
+    box-shadow: none;
+}
+
+#links-container li {
+    margin-bottom: 0.5em;
+}
+
+#links-container a {
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+#links-container a:hover {
+    color: #FFF;
+}
+
+/* FOOTER BOTTOM */
+
+#footer-bottom {
+    border-top: 1px solid var(--secondary-color);
+    padding-top: 2em;
+}
+
+#footer-bottom i {
+    color: #e61e10;
+}
+
+@media (min-width: 768px) {
+    #news-container {
+        padding-right: 2em;
+    }
+
+    #contact-container {
+        padding: 0 2em;
+        border-left: 1px solid var(--secondary-color);
+        border-right: 1px solid var(--secondary-color);
+    }
+
+    #links-container {
+        padding-left: 2em;
     }
 }
