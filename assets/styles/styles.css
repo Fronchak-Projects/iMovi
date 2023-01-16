@@ -185,7 +185,7 @@
     border-top: 4px solid var(--secondary-color);
     content: '';
     position: absolute;
-    bottom: 2em;
+    bottom: 1.5em;
 }
 
 #featured-images {
@@ -227,5 +227,40 @@
 
     #featured-images .banner-content {
         opacity: 0;
+    }
+}
+
+/* INFO */
+
+#info-content {
+    margin-bottom: 4em;
+    padding: 4em 1em;
+}
+
+#info-numbers {
+    margin: 1.5em 0;
+}
+
+#info-banner {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.5em;
+}
+
+#info-numbers h3 {
+    font-size: 3em;
+}
+
+#info-content .title:before {
+    bottom: 2.8em;
+}
+
+@media (min-width: 768px) {
+    #info-content {
+        padding: 3.5em;
+    }
+
+    #info-content .title:before {
+        bottom: 1.5em;
     }
 }
