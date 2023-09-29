@@ -2,7 +2,7 @@
 
 This project is a static page, created using HTML, CSS and Bootstrap.
 
-## [Click here](https://i-movi-fronchak-projects.vercel.app) to go the project page
+## [Click here](https://i-movi-fronchak-projects.vercel.app) to go to the project page
 
 ## How to set up
 1. Clone this project to your machine
